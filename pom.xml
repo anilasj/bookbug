@@ -65,6 +65,7 @@
 							<include>**/js/*.js</include>
 							<include>**/js/lib/*.js</include>
 							<include>**/img/*.png</include>
+							<include>**/img/*.jpg</include>
 							<include>**/img/*.gif</include>
 							<include>**/css/*.css</include>
 							<include>**/*.html</include>
