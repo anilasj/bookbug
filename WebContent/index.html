@@ -52,10 +52,10 @@
     </div>
 
     <div class="container-fluid" style="margin-top:45px;">
-      <div class="row-fluid">
-      	<div class="span2" ></div>
+      <div class="row">
+      	<div class="span2">&nbsp;</div>
         <div class="span4" >
-         <div id="myCarousel" class="carousel slide">
+         <div id="myCarousel" class="carousel slide" style="max-width:415px;">
 		  <!-- Carousel items -->
 		  <div class="carousel-inner">
 		    <div class="active item"><img src="img/cover.jpg"></div>
@@ -72,14 +72,16 @@
 		  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 		</div>
 		</div>
+		<div class="span1"></div>
 		<div class="span4" style="padding-top:80px;">
         	<h3>Coming Soon ...</h4>
         	<h1>What does God sound like?</h1>
         	<p class="muted">A sweet tale about God's love. This bedtime story introduces God to children in a gentle way. 
         	While God is everywhere; in the jungle, on the beach and even under the bed, God is there where you most need Him. 
         	</p>
+        	
         </div>
-        <div class="span2" ></div>
+        <div class="span1" >&nbsp;</div>
       </div><!--/row-->
 
       <hr style="margin-top:70px;">
@@ -96,5 +98,17 @@
     <script src="./js/lib/jquery.tipTip.minified.js"></script>
     <script src="./js/lib/jquery.url.js"></script>
     <script src="./js/lib/bootstrap.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$("#au_nt").click(function(e){
+    			if ($("#au_note").is(":visible")){
+    				$("#au_note").hide();
+    			}else {
+    				$("#au_note").show();
+    			}
+    				
+    		})
+    	});
+    </script>
  </body>
 </html>
